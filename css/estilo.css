@@ -19,6 +19,11 @@ body {
     color: transparent;
 }
 
+.navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
 
 nav#navbar-transparente {
     padding: 15px 0px;
