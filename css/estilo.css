@@ -72,8 +72,6 @@ nav#navbar-transparente {
     border-radius: 900px;
     -webkit-border-radius: 900px;
     -moz-border-radius: 900px;
-    padding: 10px 45px;
-    margin: 0px 15px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
 }
@@ -104,10 +102,6 @@ nav#navbar-transparente {
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-}
-
-.albuns{
-    padding: 10px 0px 10px 0px;
 }
 
 .rotacao {
@@ -156,7 +150,6 @@ p{
 }
 
 h1 {
-    font-size: 100px;
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
@@ -190,4 +183,41 @@ h3{
 }
 #carousel1 h1{
     font-size: 68px;
+}
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 50px;
+    }
+    .capa {
+        padding-top: 100px;
+    }
+    .btn-custom {
+        margin: 10px 15px;        
+    }
+    .albuns{
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 70px;
+    }
+    .albuns{
+        padding: 10px 0px 10px 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 100px;
+    }
 }
